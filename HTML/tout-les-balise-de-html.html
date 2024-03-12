@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemple de page avec toutes les balises HTML</title>
+<style>
+    /* Styles généraux */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header, footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    /* Styles spécifiques */
+    main {
+        padding: 20px;
+    }
+    h1 {
+        color: #333;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Titre de l'en-tête</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Titre de la section</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut purus nec libero congue scelerisque.</p>
+            <blockquote>
+                <p>Citation importante ici.</p>
+            </blockquote>
+        </section>
+        <article>
+            <h2>Titre de l'article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut purus nec libero congue scelerisque.</p>
+        </article>
+        <figure>
+            <img src="image.jpg" alt="Image">
+            <figcaption>Légende de l'image</figcaption>
+        </figure>
+        <table>
+            <thead>
+                <tr>
+                    <th>Entête de tableau</th>
+                    <th>Entête de tableau</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Donnée de tableau</td>
+                    <td>Donnée de tableau</td>
+                </tr>
+                <tr>
+                    <td>Donnée de tableau</td>
+                    <td>Donnée de tableau</td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        <p>Pied de page - © 2024</p>
+    </footer>
+</body>
+</html>

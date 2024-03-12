@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <style>
+        body {
+            color: rgb(8, 155, 147);
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        form {
+            color: rgb(5, 236, 217);
+            border: 2px solid rgb(5, 236, 217);
+            padding: 30px;
+            border-radius: 0%;
+        }
+        label {
+            color: rgb(5, 236, 217);
+        }
+        
+    </style>
+</head>
+<body>
+    <form method="get" action="php" >
+        <fieldset >
+        <legend  style="text-align: center; " "margin-ce: auto;">Formulaire</legend>
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" ><br><br>
+        
+        <label for="email"><b>Email:</b></label><br>
+        <input type="email" id="email" name="email" ><br><br>
+        
+        <label for="colorl"><b>color:</b></label><br>
+        <input type="text" id="color" name="color" ><br><br>
+
+        <label for="age"><b>Age:</b></label><br>
+        <input type="date" id="age" name="age" ><br><br>
+        
+        <label for="sexe"><b>Sexe:</b></label><br>
+        <input type="radio" id="homme" name="sexe" value="homme"  >
+        <label for="homme">Homme</label>
+        <input type="radio" id="femme" name="sexe" value="femme" >
+        <label for="femme">Femme</label><br><br>
+        
+        <input type="checkbox" id="conditions" name="conditions" required>
+        <label for="conditions">J'accepte les conditions générales d'utilisation</label><br><br>
+        
+        <input type="submit" value="Soumettre">
+    </fieldset>
+    </form>
+  
+</body>
+</html>

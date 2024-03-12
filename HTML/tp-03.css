@@ -1,0 +1,41 @@
+
+header {
+background-color: #67595e;
+ 
+  height: 80px;
+}
+ nav {
+    background-color: #a49393;
+    height: 40px;
+}
+.section {
+    margin: 50px;
+    width:auto; /* تعديل العرض حسب الحاجة */
+    height: 700px; /* تعديل الارتفاع حسب الحاجة */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+  .box {
+    border: 5px solid rgb(255, 255, 255);
+  }
+  
+  .colored-box1 {
+    background-color: #FAAA8D; /* يمكنك تغيير اللون هنا */
+  }
+  .colored-box2 {
+    background-color: #FEEFDD; /* يمكنك تغيير اللون هنا */
+  }
+  .colored-box3 {
+    background-color: #FEEFDD; /* يمكنك تغيير اللون هنا */
+  }
+  .colored-box4 {
+    background-color:#FAAA8D /* يمكنك تغيير اللون هنا */
+  }
+footer{
+    background-color: #67595e;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+   height: 80px;
+}
